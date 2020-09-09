@@ -13,8 +13,10 @@ dependencies:
   path: ^1.6.4
   build_runner: ^1.10.1
   auto_route:
-     ^0.6.7
-#    path: ../auto_route
+    git:
+      url: git://github.com/jorgelrj/auto_route_library.git
+      ref: routes-fix
+      path: ./auto_route
 
 dev_dependencies:
   source_gen_test:
